@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1661356861 source:c:\users\loay\desktop\c code\payment_application\main.c
+	<stdio.h>
+	<stdlib.h>
+	"CardModule/card.h"
+	"Terminal module/Terminal.h"
+	"Server module/Server.h"
+
+1661366372 source:c:\users\loay\desktop\c code\payment_application\server module\server.c
+	<stdio.h>
+	"../Terminal module/Terminal.h"
+	"../CardModule/card.h"
+	"Server.h"
+	<String.h>
+
+1661358487 source:c:\users\loay\desktop\c code\payment_application\terminal module\terminal .c
+	<stdio.h>
+	"../Terminal module/Terminal.h"
+	"../CardModule/card.h"
+
+1661349664 source:c:\users\loay\desktop\c code\payment_application\cardmodule\card.c
+	"card.h"
+	<stdio.h>
+
+1661299873 c:\users\loay\desktop\c code\payment_application\cardmodule\card.h
+	"../Typedef.h"
+
+1661356430 c:\users\loay\desktop\c code\payment_application\terminal module\terminal.h
+	"../CardModule/card.h"
+	"../Typedef.h"
+
+1661299763 c:\users\loay\desktop\c code\payment_application\typedef.h
+
+1661365576 c:\users\loay\desktop\c code\payment_application\server module\server.h
+	"../CardModule/card.h"
+	"../Terminal module/Terminal.h"
+	"../Typedef.h"
+
